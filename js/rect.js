@@ -1,19 +1,11 @@
-// TO CREATE USE:
-// new Display(TARGET_ELEMENT).create();
-
 (function (global) {
     "use strict";
     
     // IMPORT TXT
 
-    // https://www.html5rocks.com/en/tutorials/webcomponents/imports/
-    // colorId returns an array with colors of txt in import
-    // !!! try to make automatic
-
     function checkForImports() {
         return document.querySelector('link[rel="import"]').import;
         // returns true if load corectly
-        // !!!!! make a true boolen
     }
 
     function fileToArray(number) {
@@ -25,9 +17,6 @@
             el = content.getElementsByTagName("rect"),
             rectArray = Array.prototype.slice.call(el), // make a true array
             container = [];
-            
-            // if load dinamically uselink.onload and link.onerror
-            // think abotu async el.setAttribute("async, "")
 
             rectArray.forEach(
                 function (el) {
@@ -63,8 +52,6 @@
         }
     }
 
-// in color ID get possibilyty of relative possition of colors
-// !!!!!!!!!!!! save in cookies - local storage
     var colorId = [fileToArray(0), fileToArray(1), fileToArray(2)],
         button = document.querySelector("button"),
         idNumber = -1, // because next method adds 1 
@@ -111,7 +98,6 @@
         random =  function (number) {
             return Math.floor(Math.random() * number);
         };
-console.log(colorId, stringSum(rectClass, "rect-bg-class"));
 
     // DISPLAY
 
@@ -183,6 +169,7 @@ console.log(colorId, stringSum(rectClass, "rect-bg-class"));
             return this;
             
         } else {
+            // if browser desn't suppor imports:
             var textStyle = stringSum("position:relative;",
                                       "top:25%;",
                                       "font-family:Georgia, Arial, sans-serif;",
@@ -212,8 +199,6 @@ console.log(colorId, stringSum(rectClass, "rect-bg-class"));
             })
     };
 
-
-    // for testing
     Display.prototype.next = function () {
             idNumber++;
             idNumber = idNumber % 3;
