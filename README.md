@@ -10,7 +10,7 @@ This is why it is so fast in opposite to method with JQuery witch i used to made
 
 # CSS
 
-Idea was to put all stiling elements to css. It is possible to change size of rectangles and animations only by use of CSS. Unfortunately in can't be done with fill colors (for now it is just too complicated, but possible).
+Idea was to put all styling elements to css. It is possible to change size of rectangles and animations only by use of CSS. Unfortunately in can't be done with fill colors (for now it is just too complicated, but possible).
 
 # SVG
 

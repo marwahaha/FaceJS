@@ -9,7 +9,7 @@
 }
 
 .rect-main-class:nth-child(4n) {
-    transition: 0.6s background-color linear, 0.3s transform linear;
+    transition: 2s background-color linear;
 }
 
 .rect-main-class:hover {
@@ -18,14 +18,6 @@
     border: 1px solid black;
     transition: 0.3s all linear;
 }
-
-/*.rect-main-class:hover::after {
-    position: absolute;
-    content: "X";
-    font-family: Arial, san-serif;
-    font-size: 3px;
-    color: black;
-}*/
 
 .rect-bg-class {
     border-radius: 100%;
