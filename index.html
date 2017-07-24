@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MORDA</title>
+        <link href="css/main.css" rel="stylesheet">
+        <!--<link rel="import" href="txt/container0.txt">-->
+        <link rel="import" href="txt/container0.txt">
+        <link rel="import" href="txt/container1.txt">
+        <link rel="import" href="txt/container2.txt">
+        <script src="js/rect.js"></script>
+    </head>
+    <body>
+        <div id="content"></div>
+        <div id="buttons">
+            <!-- onclick in HTML made in purpose -->
+            <button onclick="display.random()">RANDOM</button>
+            <button onclick="display.next()">NEXT</button>
+        </div>
+        <script>
+            var display = new Display(document.querySelector("#content")).create();
+        </script>
+    </body>
+</html>
