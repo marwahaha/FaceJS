@@ -12,7 +12,11 @@ This is why it is so fast in opposite to method with JQuery witch i used to made
 
 Idea was to put all stiling elements to css. It is possible to change size of rectangles and animations only by use of CSS. Unfortunately in can't be done with fill colors (for now it is just too complicated, but possible).
 
-# TO CREATE USE:
+# SVG
+
+It's possible to import SVG with rectangles and edit them by INKSCAPE. It's very usefull when you want to check how it works. But files are much bigger, so It's better to compress them to TXT.
+
+# To create use:
 new Display(TARGET_ELEMENT).create();
 
 Import ideas from article:
