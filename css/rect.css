@@ -9,7 +9,7 @@
 }
 
 .rect-main-class:nth-child(4n) {
-    transition: 2s background-color linear;
+    transition: 0.8s background-color linear;
 }
 
 .rect-main-class:hover {

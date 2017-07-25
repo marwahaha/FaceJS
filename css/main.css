@@ -27,7 +27,7 @@ button {
 button:hover {
     background-color: #CFD8DC;
     color: #37474F;
-    transition: 1s all linear;
+    transition: 0.3s all linear;
 }
 
 #buttons {

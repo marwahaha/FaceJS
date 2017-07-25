@@ -3,7 +3,6 @@
     <head>
         <title>MORDA</title>
         <link href="css/main.css" rel="stylesheet">
-        <!--<link rel="import" href="txt/container0.txt">-->
         <link rel="import" href="txt/container0.txt">
         <link rel="import" href="txt/container1.txt">
         <link rel="import" href="txt/container2.txt">
@@ -13,8 +12,8 @@
         <div id="content"></div>
         <div id="buttons">
             <!-- onclick in HTML made in purpose -->
-            <button onclick="display.random()">RANDOM</button>
-            <button onclick="display.next()">NEXT</button>
+            <button onclick="display.random()">random</button>
+            <button onclick="display.next()">next</button>
         </div>
         <script>
             var display = new Display(document.querySelector("#content")).create();
