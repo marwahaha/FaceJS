@@ -35,3 +35,4 @@ https://www.html5rocks.com/en/tutorials/webcomponents/imports/
 + Make true boolen from checkForImports() ??
 + save in coocies local storage of colors, it Will works faster if someone will enter site again.
 + change name of Display to be unique, because of the future reuse of this code.
++ add some variables in css for sizing

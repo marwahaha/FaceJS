@@ -1,5 +1,7 @@
 @import url("rect.css");
 
+/* add some variables in css for sizing */
+
 body {
     margin: 0;
     padding: 0;
