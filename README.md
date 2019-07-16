@@ -31,7 +31,7 @@ https://www.html5rocks.com/en/tutorials/webcomponents/imports/
 # Ideas
 + Could I make a import dynamically by creating object "link"
     - That need to be done with "load" method on window object
-    - Ideas form article: if load dinamically uselink.onload and link.onerror think abotu async el.setAttribute("async, "")
+    - Ideas form article: if load dinamically uselink.onload and link.onerror think about async el.setAttribute("async, "")
 + Make true boolen from checkForImports() ??
 + save in coocies local storage of colors, it Will works faster if someone will enter site again.
 + change name of Display to be unique, because of the future reuse of this code.
